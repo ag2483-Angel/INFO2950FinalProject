@@ -1,0 +1,28 @@
+Repo: https://github.com/ericxy300/INFO2950_finalproject
+
+Phase 1 submission - Kathy Zhang, Angel Gomez, Eric Yu, William Dai
+#Topics of potential choosing for group...
+-Health and Wellbeing: How strong is the correlation of seasonal patterns between flu or COVID-19 cases? (CDC public health data, WHO, Kaggle health datasets).
+-Education: To what extent does attendance, family income, and school funding per student affect test scores.(U.S. Department of Education, Kaggle datasets on student performance).
+1. Dataset Idea
+  - Description: This dataset includes time series data tracking the number of people affected by COVID-19 worldwide, including confirmed tested cases of Coronavirus infection, the number of people who have reportedly died while sick with Coronavirus, the number of people who have reportedly recovered from it
+  - Dataset Availability: The dataset is online and free to access. The data is in CSV format and updated daily, and cleaned and normalzied
+  - Dataset Link: https://www.kaggle.com/datasets/hgultekin/covid19-coronavirus-dataset
+  - How to Collect Data: We will break down the data by timeline and divide into seasons to notice any trends in increase of reported cases
+  - Trustworthiness: Kaggle rated the dataset credibility as 100% and indication of license is minimal, however it is approved by the website
+  - Questions for Reviewers: How in depth do we need to analyze the dataset? 
+2. Dateset Idea
+  - Description: This dataset shows 8th grade math performance for different U.S. districts. It includes each district’s average score (0–500), the difference from large city averages, and the percent of students at or above Basic and Proficient.
+  - Dataset Availability: The data is free and available on the Nation’s Report Card site. It can be exported directly in XLS, CSV, or JSON formats, along with maps and full tables, making it ready for analysis.
+  - Dataset Link: https://www.nationsreportcard.gov/profiles/districtprofile?sfj=NL&chort=2&sub=MAT&sj=&st=MN&year=2024R3
+  - How to Collect Data: We will download the tables in CSV or Excel and then format and analyze the differences in district performance, looking for patterns in scores and proficiency rates.
+  - Trustworthiness: The Nation’s Report Card (NAEP) is run by NCES, part of the U.S. Department of Education. It is an official and highly trusted dataset.
+  - Questions for Reviewers: Should we analyze just the score differences between districts, or should we also combine this data with external factors like income and school funding?
+3. Dataset Idea
+  - Description: This dataset contains 15,000 AI and data science job postings with salary data, required skills, experience levels, company details, and location information. It enables analysis of which skills and experience factors most strongly predict salary premiums and how these vary by location and remote work arrangements.
+  - Dataset Availability: The dataset is available as a CSV file with 15,000 rows and 19 columns, including both categorical and numerical data. This was a dataset found on Kaggle, so it was online and free to access.
+  - Dataset Link: https://www.kaggle.com/datasets/bismasajjad/global-ai-job-market-and-salary-trends-2025
+  - How to Collect Data: We will parse the required_skills text to identify high-demand skills, analyze salary patterns across experience levels and locations, and examine correlations between remote work ratios and compensation.
+  - Trustworthiness: The dataset has realistic salary ranges and detailed job information. We'll validate by checking for duplicates, cross-referencing salaries against industry reports, and ensuring data consistency. Potential bias may exist from specific job posting platforms. Kaggle also rated this dataset as 100% credible, however given Kaggle's open-source policy. We should look closely into the validlity of the dataset. 
+  - Questions for Reviewers: Should we focus on salary prediction modeling or skill demand analysis? What external datasets (cost of living, industry growth) would strengthen our analysis? How should we handle the text parsing of required skills?
+
